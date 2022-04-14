@@ -14,7 +14,7 @@ Questions:
 
 1) How would you test this application?
 
-ans: clone the repo, cd to source directory fake_app
+Ans: clone the repo, cd to source directory fake_app
 
 docker build -t fakeapp/test:v1 .
 docker run -d -p 8080:8080 fakeapp/test:v1
