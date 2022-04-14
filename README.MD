@@ -1,7 +1,7 @@
 Project 1:
 ==========
 
-Wd Fake APP:
+Wd Fake APP Runbook:
 
 steps to build the above docker compose please follow below steps
 
@@ -12,7 +12,7 @@ steps to build the above docker compose please follow below steps
 
 Questions:
 
-a) How would you test this application?
+A) How would you test this application?
 
 Ans: clone the repo, cd to source directory fake_app
 
@@ -20,11 +20,11 @@ Ans: clone the repo, cd to source directory fake_app
 2) docker run -d -p 8080:8080 fakeapp/test:v1
 3) curl http://localhost:8080
 
-b) How would you deploy this application
+B) How would you deploy this application
 
 Ans: docker-compose up --build
 
-c) How would you manage configurations for secrets
+C) How would you manage configurations for secrets
 
 Ans: we can use secret management tools like vault, aws secret manager and integrate with ur node code to get the password parameters. 
 
@@ -60,12 +60,12 @@ Ans:
 B) What questions do you have about the 2 users that have full admin access?
 
 Ans: 
-     1) All users should be given minimal or requried previleges. This should be handled from organisational level identity management
-     2) Use multiple groups and roles/policies for more secured accesing of services.
+   1) All users should be given minimal or requried previleges. This should be handled from organisational level identity management
+   2) Use multiple groups and roles/policies for more secured accesing of services.
      
 C) What security precautions would you take for system users vs. human users?
 
 Ans: 
-     1) I would consider giving minimum or access based on purpose. depending on the users use case we have to differiate the groups and assign the user to approriate group.
-     2) Integrate LDAP/AD will make this more easier from organisational standpoint for more secured access controls
-     3) All manual changes should be blocked from aws security stand point and we should only use IAAC
+   1) I would consider giving minimum or access based on purpose. depending on the users use case we have to differiate the groups and assign the user to approriate group.
+   2) Integrate LDAP/AD will make this more easier from organisational standpoint for more secured access controls
+   3) All manual changes should be blocked from aws security stand point and we should only use IAAC
