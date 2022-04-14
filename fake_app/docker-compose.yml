@@ -1,0 +1,12 @@
+version: "3"
+services:
+  app:
+    build: .
+    image: fakeapp/node:v1
+    depends_on:
+      - postgres
+    ports:
+      - "8080:8080"
+
+  postgres:
+    image: postgres
