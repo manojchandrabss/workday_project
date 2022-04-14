@@ -28,4 +28,4 @@ Ans: docker-compose up --build
 
 Ans: we can use secret management tools like vault, aws secret manager and integrate with ur node code to get the password parameters. And even docker-compose we can use secret.yml and add our passowrd arguments and add the ignore files to .gitignore
 
-========================================================================================================================
+====================================================================
