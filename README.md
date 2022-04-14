@@ -66,6 +66,6 @@ Ans:
 C) What security precautions would you take for system users vs. human users?
 
 Ans: 
-   1) I would consider giving minimum or access based on purpose. depending on the users use case we have to differiate the groups and assign the user to approriate group.
+   1) I would consider giving minimum or access based on purpose. depending on the users use case we have to differentiate the groups and assign the user to approriate group.
    2) Integrate LDAP/AD will make this more easier from organisational standpoint for more secured access controls
    3) All manual changes should be blocked from aws security stand point and we should only use IAAC
