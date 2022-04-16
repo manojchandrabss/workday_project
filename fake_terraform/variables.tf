@@ -8,7 +8,7 @@ variable "vpc-names" {
 
   description = "creating 2 vpc's"
   type        = list(string)
-  default     = ["fake-product-production", "Fake-product-staging"]
+  default     = ["fake-product-production", "fake-product-staging"]
 
 }
 
