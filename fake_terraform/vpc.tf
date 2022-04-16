@@ -28,7 +28,7 @@ resource "aws_subnet" "prod-subnet" {
   }
 }
 
-resource "aws_subnet" "stag-sunet" {
+resource "aws_subnet" "stage-subnet" {
   vpc_id     = aws_vpc.fake-stage-vpc.id
   cidr_block = "192.168.1.0/24"
 
